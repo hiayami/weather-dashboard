@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(66, 66, 211);
+    padding: 50px;
+}
+
+body {
+    margin: 0;
+}
