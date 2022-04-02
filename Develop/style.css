@@ -15,3 +15,35 @@ header {
 body {
     margin: 0;
 }
+
+.wrapper {
+    display: flex;
+}
+
+.weather-today {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.side-weather {
+    flex-grow: 1;
+    margin: 16px;
+    visibility: hidden;
+}
+
+.five-day {
+    margin-top: 15px;
+}
+
+.forecast-card {
+    background-color: #6ec9d8;
+    width: fit-content;
+    padding: 8px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.previous-location {
+    margin: 4px 0;
+    width: 100%;
+}
