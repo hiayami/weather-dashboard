@@ -59,8 +59,27 @@ function getLatLong (city) {
       });
 }
 
+// var uviEl = data1.current.uvi;
 
-// getLatLong('London') //will need to get text area/string user types in to call function
+// UVindexEl.textContent = uviEl + " uvi";
+
+// if (uviEl >= 0 && uviEl < 3) {
+//         UVindexEl.style.backgroundColor = "#3EA72D";
+//     } else if (uviEl >= 3 && uviEl < 6) {
+//         UVindexEl.style.backgroundColor = "#FFF300";
+//     } else if (uviEl >= 6 && uviEl < 8) {
+//         UVindexEl.style.backgroundColor = "#F18B00";
+//     } else if (uviEl >= 8 && uviEl < 10.01) {
+//         UVindexEl.style.backgroundColor = "#E53210";
+//     } else {
+//         UVindexEl.style.backgroundColor = "#B567A4";
+//     };
+
+// var uviBackground = data.current.uvi;
+// document.querySelector('.uvi-color').value = uviBackground
+// if(uviBackground >= 0 && uviBackground < 3) {
+//     uviBackgroun.sytle.backgroundColor = "#3EA72D"
+// }
 
 function appendCityToSearch(city) {
     document.querySelector('#side-search').innerHTML += `

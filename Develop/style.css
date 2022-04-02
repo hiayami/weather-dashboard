@@ -31,6 +31,13 @@ body {
     visibility: hidden;
 }
 
+.uvi-color {
+    padding: 5px;
+    border-radius: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .five-day {
     margin-top: 15px;
 }
