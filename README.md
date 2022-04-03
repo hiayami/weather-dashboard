@@ -26,4 +26,4 @@ https://openweathermap.org/api/one-call-api
 https://getbootstrap.com/
 
 Potential issues:
-search criteria parameters currently only include one result for city entered. This can bring up results the user may not want (i.e. there can be multiple cities with the same name and only one result/city will show).
+search criteria parameters currently only include one result for city entered. This can bring up results the user may not want (i.e. there can be multiple cities with the same name and only one result/city will show).![Weather-Dashboard-ScreenShot](https://user-images.githubusercontent.com/98536530/161405632-8ace21e4-d2bf-475b-a275-e8c2963d5bfc.png)
