@@ -23,6 +23,7 @@ THEN I am again presented with current and future conditions for that city
 Reference APIs Used for weather forecast and time:
 https://momentjs.com/
 https://openweathermap.org/api/one-call-api
+https://getbootstrap.com/
 
 Potential issues:
-search criteria parameters currently only include one result for city entered. This can bring up results the user may not want (i.e. there can be multiple cities with the same name).
+search criteria parameters currently only include one result for city entered. This can bring up results the user may not want (i.e. there can be multiple cities with the same name and only one result/city will show).
