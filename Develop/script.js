@@ -1,6 +1,6 @@
 //API variables
 var requestWeatherTemplate = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=52a460edbf4d8975eb6d58e67256d948'
-var getLatLongTemplate = 'http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid=52a460edbf4d8975eb6d58e67256d948'
+var getLatLongTemplate = 'https://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid=52a460edbf4d8975eb6d58e67256d948'
 var currentDate = moment().format('l')
 
 //will display current date 
@@ -8,7 +8,7 @@ document.querySelector('#weather-today-date').innerText= currentDate;
 
 //gets coordinates from city that is entered from the user. City is used as parameter for API to get latitude and longitude
 function getLatLong (city) {
-    var getCoordinates = 'http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=1&appid=52a460edbf4d8975eb6d58e67256d948'
+    var getCoordinates = 'https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=1&appid=52a460edbf4d8975eb6d58e67256d948'
     fetch(getCoordinates).then(function (response) {
         if (response.ok) {
           response.json().then(function (data) {
